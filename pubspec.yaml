@@ -1,0 +1,45 @@
+name: tic_tac_toe
+description: A new Flutter project.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.4 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^2.0.4
+  introduction_screen: ^3.1.7
+  icons_plus: ^4.0.0
+  floating_bottom_navigation_bar: ^1.5.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+
+  assets:
+     - assets/svg/
+     - assets/images/
+
+
+  fonts:
+     - family: Roboto
+       fonts:
+         - asset: assets/fonts/Roboto-Regular.ttf
