@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:tic_tac_toe/pages/introduction_screenn_page.dart';
+
 
 class IntroPage extends StatefulWidget {
   static String get id => 'intro_page';
@@ -16,9 +16,7 @@ class _IntroPageState extends State<IntroPage> {
 
   void _initTimer(){
     setState(() {
-      Timer(const Duration(seconds: 2), () {
-        Navigator.pushReplacementNamed(context, IntroductionPage.id);
-      });
+
     });
   }
   @override
